@@ -15,8 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-
-
+    grace_hopper = programmer_hash[:grace_hopper]
+# it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
 end
 
 def alan_kay_is_known_for
@@ -37,6 +37,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     known_for = programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -55,6 +56,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     languages = programmer_hash[:dennis_ritchie][:languages]
+     languages[0]
 end
 
 def adding_matz
@@ -79,7 +82,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+ 
     
 end
 
